@@ -1,0 +1,107 @@
+Projeto 02 / De #F032 até #F043
+
+tags semanticas = servem para acessibilidade, ajuda nos motores de busca do google
+
+  header = cabeçalho do site
+
+  main = conteudo principal do site
+
+  footer = rodape do site
+
+  nav = parte de navegação
+  ul = LISTA não ordenada
+  ol = LISTA ordenada
+  <li> dentro das listas
+
+  section = não substitui uma div, mas como ele vai ter uma 
+            seção onde havera um texto
+
+  button = butão 
+
+  gap {dentro do flex} = espaço
+
+
+  estrategia do flex para alinha tudo no eixo principal = main axis (eixo principal)
+
+
+
+
+
+BOX MODEL:
+
+  tudo que a gente tem de elemento para o css é uma caixa
+
+  width = largura
+  height = altura
+  margin = espaços ao redor
+  border = borda
+  padding = preenchimento (meio que se afasta da borda da caixa)
+
+  border: 1px solid red;  (muito util)
+
+
+  margin = o espaço da margem, ao redor da caixa (espaço pra fora)
+
+
+
+
+
+
+
+
+
+
+
+
+atalho = div.page = <div class="page"></div>
+
+
+
+
+
+quando voce quer chamar uma classe voce usa: .classe
+
+quando voce quer chamar um id voce usa: #id
+
+
+
+
+
+Orgãos reguladores
+<!-- A11y --> simplifica o que o "W3C" fala sobre acessibilidade
+<!-- W3C --> regulamenta css, html
+
+
+o header não pode conter um nav dentro dele,
+pq o nav vai trabalhar só com navegações e
+o header é um descritivo inicial da sua pagina 
+
+Refatoração: Mudar algo interno sem estragar oq 
+             já estava funcionando
+
+
+/* pseudo-class */
+
+ul li a:hover {
+  font-weight: bold;
+}
+
+  hover = quando o mouse estiver em cima
+
+
+
+
+
+size 
+weight
+text-transform: uppercase = deixa o texto em maiusculo 
+
+
+
+border-radius = arredondamento da caixa
+
+
+linear-gradient = formato de uma função
+
+
+height: 100vh; = view poirt (toda area disponivel visivel do meu dispositivo)
